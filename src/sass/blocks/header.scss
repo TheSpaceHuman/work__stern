@@ -1,0 +1,48 @@
+.mini-line-banner {
+  height: 70px;
+  background-color: #152843;
+  color: white;
+}
+.mini-line-banner_phone a {
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.mini-line-banner_phone {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mini-line-banner_delivery a {
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 300;
+}
+.mini-line-banner_delivery {
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 35px;
+}
+.main-menu_logo {
+  display: block;
+  width: 123px;
+  height: 55px;
+}
+.top-menu {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content:space-around;
+}
+.main-menu_right {
+  display: flex;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+}
+

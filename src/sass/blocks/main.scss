@@ -1,0 +1,72 @@
+.popular-goods_items,
+.sale-goods_items {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.popular-goods_item,
+.sale-goods_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 19%;
+  outline: 1px solid #c6c6c6;
+}
+.brands_items {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 180px;
+}
+.brands_item {
+  display: flex;
+  width: 19%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-right: 1px solid #c6c6c6;
+}
+.brands {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.advantages_items {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.advantages_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 19%;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news_items {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+}
+.news_item {
+  display: flex;
+  width: 32%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+}
+.btn-center {
+  margin: 0 auto;
+}
