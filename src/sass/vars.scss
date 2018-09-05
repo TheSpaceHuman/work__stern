@@ -11,6 +11,15 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
 }
 img {
   width: auto;
@@ -25,15 +34,14 @@ a:hover {
   color: black;
   text-decoration: none;
 }
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
-$colors: (
-  red1:#ff3434,
-  gray1:#797979,
-  gray2:#8d8d8d,
-  gray3:#c6c6c6,
-);
+//.row {
+//  margin-left: 0;
+//  margin-right: 0;
+//}
+
+$red : #ff3434;
+$gray1: #797979;
+$gray2: #8d8d8d;
+$gray3: #c6c6c6;
 
 
