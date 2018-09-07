@@ -16,6 +16,7 @@ var pug = require('gulp-pug');
 var clean = require('gulp-clean');
 
 
+
 gulp.task('style', function() {
   return gulp.src('src/sass/style.{sass,scss}')
       .pipe(plumber())
@@ -89,22 +90,23 @@ gulp.task('posthtml', function () {
 
 gulp.task('copy', function () {
   return gulp.src([
-    'src/fonts/**/*.{woff,woff2,ttf,eot}',
-    'src/js/**/*.js',
-    'src/libs/**/*.*'
+  'src/fonts/**/*.{woff,woff2,ttf,eot}',
+  'src/js/**/*.js',
+  'src/libs/**/*.*'
   ],{
     base:'src'
   })
       .pipe(gulp.dest('build'))
 });
-
 gulp.task('clean', function () {
-  gulp.src('build')
-      .pipe(clean())
+    return gulp.src('build')
+        .pipe(clean())
 
 });
 
-gulp.task('build', function (done) {
-  run('clean', 'copy', 'style', 'pug','sprite','imagemin', 'server', done);
+
+gulp.task('build', function (callback) {
+  run('clean', 'copy', 'style', 'pug','sprite','imagemin', 'server', callback);
 });
+
 

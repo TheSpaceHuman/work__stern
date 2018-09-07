@@ -1,3 +1,4 @@
+//MAIN
 .main-slider {
   background-image: url("../img/index/index-logo.jpg");
   background-size: cover;
@@ -227,7 +228,17 @@ img.underlining {
   color: white;
   font-size: 16px;
   padding: 5px 12px;
+  margin: 0 auto;
 }
 .form--br {
   border-radius: 0;
+}
+.count {
+  padding: 4px 8px;
+}
+.btn-count {
+  border: inherit;
+  background-color: transparent;
+  color: $red;
+  opacity: 0.6;
 }
