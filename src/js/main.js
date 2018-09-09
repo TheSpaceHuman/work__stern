@@ -16,6 +16,7 @@ for (i; i < counter.length; i++) {
         $('#count' + i).text(counter[i]);
     });
 }*/
+/*
 var counter0 = 0;
 $("#plus0").click(function(){
     counter0++;
@@ -30,3 +31,7 @@ $("#minus1").click(function(){
 
     $("#count0").text(counter0);
 });
+*/
+
+
+
